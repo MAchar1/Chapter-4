@@ -7,7 +7,7 @@
  */
 
 public class Main {
-    public static void main(String[] args) throws IllegalTriangleSideException {
+    public static void main(String[] args) {
 
         Triangle tri1 = new Triangle(3, 4, 5);
         Triangle tri2 = new Triangle(10, 20, 20);
