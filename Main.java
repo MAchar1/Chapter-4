@@ -18,7 +18,7 @@ public class Main {
             tri2.checkSides();
             tri3.checkSides();
         } catch (IllegalTriangleSideException e) {
-            System.out.println("This is not a triangle");
+            System.out.println(e);
         }
 
 
