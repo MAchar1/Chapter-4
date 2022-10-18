@@ -13,7 +13,7 @@ public class Triangle {
     private double s2;
     private double s3;
 
-    public Triangle(double s1, double s2, double s3) throws IllegalTriangleSideException{
+    public Triangle(double s1, double s2, double s3) {
         this.s1 = s1;
         this.s2 = s2;
         this.s3 = s3;
